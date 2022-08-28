@@ -11,6 +11,6 @@ class SendEmail extends Controller
     public function send(Request $request)
     {
         echo "Enviando email...";
-        Mail::to('ventas@kcgestionesinmobiliarias.com')->send(new TestMail());
+        Mail::to('jllopezvicente@gmail.com')->send(new TestMail());
     }
 }
